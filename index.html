@@ -3,194 +3,224 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elsie Mercy Odhiambo - CV</title>
+  <title>Elsie Mercy Odhiambo | CV</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #f4f4f9;
-      color: #333;
+      background-color: #f7f7f7;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
+      color: #333;
     }
 
     header {
-      background-color: #4CAF50;
-      color: #fff;
-      padding: 20px;
+      background-color: #800000; /* Maroon */
+      color: white;
       text-align: center;
+      padding: 30px 20px;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.5em;
+      font-size: 2.8em;
+      font-weight: 600;
     }
 
-    header h2 {
-      margin-top: 10px;
+    header p {
+      margin: 10px 0;
       font-size: 1.2em;
       font-style: italic;
     }
 
-    .container {
-      width: 80%;
-      margin: 20px auto;
-      background-color: #fff;
-      padding: 20px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 40px 15px;
+      max-width: 1200px;
+      margin: 0 auto;
     }
 
-    .section-title {
-      background-color: #f1f1f1;
-      padding: 10px;
-      font-size: 1.5em;
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      color: #800000; /* Maroon */
       margin-bottom: 10px;
-      border-left: 5px solid #4CAF50;
+      font-weight: 600;
     }
 
-    .section-content {
-      padding-left: 20px;
+    .content {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
       margin-bottom: 20px;
     }
 
-    .section-content ul {
-      list-style: none;
+    .content ul {
+      list-style-type: none;
       padding: 0;
     }
 
-    .section-content li {
-      margin-bottom: 10px;
+    .content li {
       font-size: 1.1em;
+      margin-bottom: 12px;
     }
 
-    .contact {
-      text-align: center;
-      font-size: 1.1em;
+    .education,
+    .work-experience,
+    .skills {
+      padding: 20px;
+    }
+
+    .education li,
+    .work-experience li {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .education li h3,
+    .work-experience li h3 {
+      font-weight: 600;
+      font-size: 1.5em;
+      margin: 5px 0;
+    }
+
+    .education li span,
+    .work-experience li span {
+      font-size: 1em;
+      color: #888;
+    }
+
+    .skills ul {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
       margin-top: 20px;
-      color: #333;
+    }
+
+    .skills li {
+      background-color: #f0f0f0;
+      padding: 8px 16px;
+      border-radius: 25px;
+      font-size: 1em;
     }
 
     footer {
       text-align: center;
-      padding: 10px;
-      background-color: #4CAF50;
-      color: #fff;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      background-color: #800000; /* Maroon */
+      color: white;
+      padding: 15px 20px;
+      margin-top: 40px;
     }
 
     footer p {
       margin: 0;
+      font-size: 1.1em;
     }
 
-    .skills-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      padding-left: 20px;
-    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      main {
+        padding: 20px;
+      }
 
-    .skills-list span {
-      background-color: #4CAF50;
-      color: #fff;
-      padding: 8px 15px;
-      border-radius: 5px;
-      font-size: 1em;
+      header h1 {
+        font-size: 2em;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Elsie Mercy Odhiambo</h1>
-  <h2>Korea National University of Education</h2>
-  <p>P.O. Box 444-00100 Nairobi</p>
-</header>
+  <header>
+    <h1>Elsie Mercy Odhiambo</h1>
+    <p>Cultural English Teacher | Global Education Leadership Enthusiast</p>
+  </header>
 
-<div class="container">
-  <!-- About Section -->
-  <section>
-    <div class="section-title">About Me</div>
-    <div class="section-content">
-      <p>I am a results-oriented educator with eight years of experience teaching English and Literature, coupled with a demonstrated track record of leadership as Head of Department of Languages. Passionate about enhancing student learning experiences through innovative teaching methodologies and fostering a love for literature and poetry. Committed to guiding and counselling students to achieve academic and personal success. Currently pursuing a graduate course in leadership to further develop leadership skills and advance educational leadership capabilities.</p>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section>
-    <div class="section-title">Education Background</div>
-    <div class="section-content">
-      <ul>
-        <li><strong>Sept. 2023 to Dec 2014:</strong> Masters in Global Education Leadership, Korea National University of Education</li>
-        <li><strong>May 2018 to June 2021:</strong> Masters in English and Linguistics, Kenyatta University</li>
-        <li><strong>May 2013 to April 2016:</strong> Bachelor of Education Arts, Kabarak University</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Work Experience Section -->
-  <section>
-    <div class="section-title">Work Experience</div>
-    <div class="section-content">
-      <ul>
-        <li><strong>October 2023-Present:</strong> Cultural English Teacher (Various Age Groups)
-          <ul>
-            <li>Developed engaging lesson plans and instructional materials to facilitate student learning and comprehension.</li>
-            <li>Utilized various teaching methods and technologies to accommodate diverse learning styles.</li>
-            <li>Designed and implemented a comprehensive English curriculum focusing on cultural immersion.</li>
-            <li>Provided individualized support to students to promote academic growth.</li>
-          </ul>
-        </li>
-        <li><strong>2019-2023:</strong> English and Global Perspective Teacher, Light International School
-          <ul>
-            <li>Enhanced the reading culture by introducing a book reading club.</li>
-            <li>Created fun, engaging ways to teach English pronunciation and writing skills.</li>
-            <li>Taught IGCSE, Global Perspective, and Literature.</li>
-          </ul>
-        </li>
-        <li><strong>2017-2019:</strong> English and Literature Teacher, The Mark Excellency Tuition Centre
-          <ul>
-            <li>Taught English as a second language to non-native speakers.</li>
-            <li>Integrated technology to enhance student engagement.</li>
-            <li>Taught IGCSE, EDEXCEL, and IB students.</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section>
-    <div class="section-title">Skills</div>
-    <div class="section-content">
-      <div class="skills-list">
-        <span>Leadership</span>
-        <span>Communication</span>
-        <span>Curriculum Development</span>
-        <span>Poetry Analysis</span>
-        <span>Teaching Methodologies</span>
+  <main>
+    <section class="education">
+      <h2>Education Background</h2>
+      <div class="content">
+        <ul>
+          <li>
+            <h3>Masters in Global Education Leadership</h3>
+            <span>Korea National University of Education | Sept 2023 - Dec 2014</span>
+          </li>
+          <li>
+            <h3>Masters in English and Linguistics</h3>
+            <span>Kenyatta University | May 2018 - June 2021</span>
+          </li>
+          <li>
+            <h3>Bachelor of Education Arts</h3>
+            <span>Kabarak University | May 2013 - April 2016</span>
+          </li>
+        </ul>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- References Section -->
-  <section>
-    <div class="section-title">References</div>
-    <div class="section-content">
-      <p>Available upon request.</p>
-    </div>
-  </section>
+    <section class="work-experience">
+      <h2>Work Experience</h2>
+      <div class="content">
+        <ul>
+          <li>
+            <h3>Cultural English Teacher (Various Age Groups)</h3>
+            <span>October 2023 - Present</span>
+            <ul>
+              <li>Developed engaging lesson plans and instructional materials.</li>
+              <li>Utilized multimedia resources for immersive learning.</li>
+              <li>Provided individualized support to students.</li>
+            </ul>
+          </li>
+          <li>
+            <h3>English and Global Perspective Teacher</h3>
+            <span>Light International School | 2019 - 2023</span>
+            <ul>
+              <li>Enhanced students' reading culture through a book club.</li>
+              <li>Made learning grammar fun with interactive games and quizzes.</li>
+              <li>Taught IGCSE English grades 8-11, and Global Perspectives grades 10-11.</li>
+            </ul>
+          </li>
+          <li>
+            <h3>English and Literature Teacher</h3>
+            <span>The Mark Excellency Tuition Centre | 2017 - 2019</span>
+            <ul>
+              <li>Taught English as a second language to non-native speakers.</li>
+              <li>Integrated technology into lessons for better engagement.</li>
+              <li>Developed and implemented lesson plans for grade 9 students.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  <div class="contact">
-    <p>Feel free to reach out! You can contact me via my <a href="mailto:your-email@example.com">email</a>.</p>
-  </div>
-</div>
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="content">
+        <ul>
+          <li>Strong leadership and organizational abilities</li>
+          <li>Excellent communication and interpersonal skills</li>
+          <li>Innovative teaching methodologies and curriculum development</li>
+          <li>Proficiency in poetry analysis and instruction</li>
+        </ul>
+      </div>
+    </section>
 
-<footer>
-  <p>&copy; 2024 Elsie Mercy. All rights reserved.</p>
-</footer>
+    <section class="references">
+      <h2>References</h2>
+      <p>Available upon request</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Elsie Mercy Odhiambo. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
